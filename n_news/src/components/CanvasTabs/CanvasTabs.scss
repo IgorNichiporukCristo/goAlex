@@ -1,0 +1,119 @@
+@import "../../assets/styles/mixins";
+
+.canvasTabs {
+  &__iconsWrapper {
+    display: none;
+    position: absolute;
+    width: 68px;
+    top: 116px;
+    left: 55px;
+    padding: 16px 0;
+    overflow: hidden;
+    background: #222222;
+    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.17);
+    border-radius: 18px;
+    transition: width 0.3s ease-in-out;
+
+    @include mq("lg") {
+      display: none;
+    }
+
+    &_active {
+      width: 160px;
+    }
+  }
+
+  &__iconWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    @include mq("lg") {
+      margin-bottom: 0;
+    }
+  }
+
+  &__icon {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    color: red;
+    margin: 0 16px;
+    transition: transform 0.3s ease-in-out;
+
+    &_arroyActive {
+      transform: rotate(-180deg);
+    }
+  }
+
+  &__iconText {
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #fff;
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    &_active {
+      opacity: 1;
+    }
+  }
+
+  &__tabs {
+    display: none;
+
+    @include mq("lg") {
+      display: block;
+      margin-top: 13px !important;
+      padding: 0 !important;
+      margin-left: -4px !important;
+      margin-right: -1px !important;
+      box-sizing: border-box;
+      height: 40px;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    }
+
+  
+    & > div {
+      width: calc(100% - 1px) !important;
+      height: 100% !important;
+      border-radius: 12px !important;
+      padding-left: 2px !important;
+      background: rgba(255, 255, 255, 0.06) !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) !important;
+    }
+  }
+  
+  &__tab {
+    top: 0;
+    font-family: 'SB Sans Text';
+        font-size: 12px !important;
+    // font-weight: 400 !important;
+    font-style: normal;
+    letter-spacing: -0.019em;
+    padding: 10px !important;
+    height: 36px;
+    font-size: 12px !important;
+
+    & + div {
+      &:not(div[role="tab"]) {
+        top: 2px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        height: 36px !important;
+        border-radius: 12px !important;
+      }
+    }
+
+    &_disabled {
+      pointer-events: none;
+      opacity: 0.28;
+    }
+
+    &_current {
+      pointer-events: none;
+    }
+  }
+}

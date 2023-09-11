@@ -1,0 +1,11 @@
+@import "../../assets/styles/mixins";
+
+.popper {
+  z-index: 9999;
+  display: block;
+  background-color: var(--white);
+  border: 1px solid var(--blue-300);
+  border-radius: 12px;
+  outline: none;
+  box-shadow: 0 16px 32px -16px var(--shadow);
+}

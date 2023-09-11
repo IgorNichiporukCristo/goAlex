@@ -1,0 +1,51 @@
+@import "../../assets/styles/mixins";
+
+.searchMob {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 16px;
+
+  &__back {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+
+    & > span {
+      margin-left: 12px;
+      color: #fff;
+
+      font-family: 'SB Sans Text';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.019em;
+    }
+  }
+
+  &__search {
+    margin: 0;
+  }
+
+  &__title {
+    margin: 18px 0 17px;
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.022em;
+  }
+
+  &__newsCards {
+    margin-bottom: 16px;
+
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+  }
+}

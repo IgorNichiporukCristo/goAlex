@@ -1,0 +1,34 @@
+.newParser {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .video {
+	width: 900px;
+	max-width: 100%;
+	border-radius: 12px;
+	max-height: 400px;
+    }
+}
+
+.articleImg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    img {
+	// width: fit-content;
+	max-width: 100%;
+	border-radius: 12px;
+	max-height: 400px;
+    }
+    .imgCaption {
+	width: 100%;
+	text-align: center;
+	margin-top: 12px;
+    }
+}
+
+.divider {
+    width: 100%;
+    text-align: center;
+}

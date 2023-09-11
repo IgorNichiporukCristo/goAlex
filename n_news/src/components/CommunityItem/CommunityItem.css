@@ -1,0 +1,48 @@
+.communityItem {
+  display: flex;
+  align-items: center;
+}
+
+.communityItem:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.communityItem__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.communityItem__icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.communityItem__text {
+  width: calc(100% - 88px);
+  padding: 0 16px;
+  flex: 1 0 auto;
+  box-sizing: border-box;
+}
+
+.communityItem__name {
+  margin-bottom: 2px;
+  color: rgba(255, 255, 255, 0.96);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.communityItem__count {
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.communityItem__button {
+  margin-right: -8px;
+  padding: 8px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+}

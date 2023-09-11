@@ -1,0 +1,61 @@
+.canvasTabs {
+
+    // margin-bottom: 12px;
+
+
+
+    &__tabs {
+	@media (min-width: 1366px) {
+	    display: none;
+	}
+        margin-top: 13px !important;
+        padding: 0 !important;
+        margin-left: -4px !important;
+        margin-right: -1px !important;
+    box-sizing: border-box;
+    height: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  
+    & > div {
+        width: calc(100% - 1px) !important;
+      height: 100% !important;
+      border-radius: 12px !important;
+      padding-left: 2px !important;
+      background: rgba(196, 196, 196, 0.19) !important;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15) !important;
+    }
+  }
+  
+    &__tab {
+        
+    top: 0;
+    font-family: 'SB Sans Text';
+        font-size: 12px !important;
+    // font-weight: 400 !important;
+    font-style: normal;
+    letter-spacing: -0.019em;
+    padding: 10px !important;
+    height: 36px;
+    font-size: 12px !important;
+  
+    & + div {
+      &:not(div[role="tab"]) {
+        top: 2px;
+        background: rgba(196, 196, 196, 0.38);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        height: 36px !important;
+        border-radius: 12px !important;
+      }
+    }
+  
+    &_disabled {
+      pointer-events: none;
+      opacity: 0.28;
+    }
+
+    &_current {
+      pointer-events: none;
+    }
+  }
+}

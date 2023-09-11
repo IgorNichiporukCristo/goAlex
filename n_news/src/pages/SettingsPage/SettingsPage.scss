@@ -1,0 +1,26 @@
+.settingsPage {
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.settingsPage__header {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.settingsPage__backButton {
+  margin: 0 16px 0 -8px;
+  display: flex;
+}
+
+.settingsPage__list {
+  margin-top: 20px;
+}
+
+.settingsPage__listEmpty {
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.56);
+}

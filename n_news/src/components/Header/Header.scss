@@ -1,0 +1,119 @@
+@import "../../assets/styles/mixins";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin: 25px 0;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @include mq("lg") {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  &__recommendations {
+    display: none;
+
+    @include mq("lg") {
+      display: block;
+    }
+  }
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+
+  &:first-child {
+    overflow: hidden;
+
+    @include mq("lg") {
+      flex: 1 0 auto;
+    }
+  }
+}
+
+.header__menu {
+  width: 100%;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+
+  @include mq("lg") {
+    justify-content: space-around;
+    padding: 0 16px;
+    margin-left: 0;
+  }
+}
+
+.header__iconButton {
+  display: flex;
+
+  @include mq("lg") {
+    margin-left: 2px;
+  }
+}
+
+.header__backButton {
+  display: flex;
+  align-items: center;
+
+  @include mq("lg") {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header .kind {
+  color: #5e5e5e;
+  white-space: nowrap;
+  scroll-snap-align: start;
+  cursor: pointer;
+
+  @include mq("lg") {
+    padding: 0 16px;
+  }
+}
+
+.header .kind:not(:first-child) {
+  margin-left: 50px;
+
+  @include mq("lg") {
+    margin-left: 0;
+  }
+}
+
+.header .kind.active {
+  color: white;
+  position: relative;
+
+  @include mq("lg") {
+    background: linear-gradient(93.97deg, #50c1fa 6.49%, #adadff 93.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.header .kind.active::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #24b23e;
+  border-radius: 50%;
+  position: absolute;
+  right: -18px;
+  top: 55%;
+  transform: translateY(-50%);
+  z-index: 1;
+
+  @include mq("lg") {
+    display: none;
+  }
+}

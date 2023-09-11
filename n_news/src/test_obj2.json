@@ -1,0 +1,315 @@
+{
+    "screenName": "newsPage",
+    "params": {
+        "newsData": {
+            "id": 1156827,
+            "likes": 0,
+            "comments": 0,
+            "reposts": "",
+            "voting": {
+                "id": 1156823,
+                "backgroundStart": "#7A24D0",
+                "backgroundEnd": "#1319BC",
+                "questions": [
+                    {
+                        "id": 1156824,
+                        "question": "Когда это все закончится",
+                        "answerOptions": [
+                            {
+                                "id": 1156825,
+                                "text": "Никогда",
+                                "count": 0
+                            },
+                            {
+                                "id": 1156826,
+                                "text": "Не известно",
+                                "count": 0
+                            }
+                        ],
+                        "myChoices": [],
+                        "votersNumber": 0,
+                        "isMultiChoice": false
+                    }
+                ],
+                "pollWidget": false
+            },
+            "view": 357,
+            "likePlusComments": "",
+            "time": {
+                "hour": "05",
+                "minutes": "39"
+            },
+            "data": {
+                "date": "08",
+                "month": "06",
+                "year": "2023"
+            },
+            "type": "article",
+            "repost": false,
+            "title": "Большая статья на тест",
+            "description": "Надо что-то написать и судя по-всему много",
+            "url": [
+                "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/48a92fec5749dc6102bfc0a11fc4a171"
+            ],
+            "community": "Навыки ВАС",
+            "full_description": "@@Продолжаем писать статью@@\n\nЗвездочками отделил. Прикольно должно быть\n\n- Теперь будем пробовать ссылки делать. Вот ссылка [в друга]https://psi.sberfriend.sbrf.ru/sberfriend/#/media/community/465984\n\n## Теперь заголовки большие \n\n### и маленькие\n\nПосмотрим что еще есть. **Жирный _наклонный и подчеркнутый_**\n\nТеперь опрос\n\nИ еще парачка картинок",
+            "articleContent": {
+                "version": 1,
+                "entities": [
+                    {
+                        "id": 1156821,
+                        "type": "image",
+                        "caption": "Первая фотография "
+                    },
+                    {
+                        "type": "quote",
+                        "text": "Продолжаем писать статью"
+                    },
+                    {
+                        "type": "poll"
+                    },
+                    {
+                        "type": "divider"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "Звездочками отделил. Прикольно должно быть",
+                        "textWeb": "{\"blocks\":[{\"key\":\"7sbk0\",\"text\":\"Звездочками отделил. Прикольно должно быть\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "id": 1156843,
+                        "type": "image",
+                        "caption": ""
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "- Теперь будем пробовать ссылки делать. Вот ссылка [в друга](https://psi.sberfriend.sbrf.ru/sberfriend/#/media/community/465984) & [в google]https://google.com some random text and an [email]evgen@evgens.site",
+                        "textWeb": "{\"blocks\":[{\"key\":\"cfdpp\",\"text\":\"Теперь будем пробовать ссылки делать. Вот ссылка в друга\",\"type\":\"unordered-list-item\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":49,\"length\":7,\"key\":0}],\"data\":{}}],\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"https://psi.sberfriend.sbrf.ru/sberfriend/#/media/community/465984\"}}}}"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "## Теперь заголовки большие ",
+                        "textWeb": "{\"blocks\":[{\"key\":\"3bq3i\",\"text\":\"Теперь заголовки большие \",\"type\":\"header-two\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "### и маленькие",
+                        "textWeb": "{\"blocks\":[{\"key\":\"6gub2\",\"text\":\"и маленькие\",\"type\":\"header-three\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "Посмотрим что еще есть. **Жирный _наклонный и подчеркнутый_**",
+                        "textWeb": "{\"blocks\":[{\"key\":\"ba9gr\",\"text\":\"Посмотрим что еще есть. Жирный наклонный и подчеркнутый\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[{\"offset\":24,\"length\":31,\"style\":\"BOLD\"},{\"offset\":31,\"length\":24,\"style\":\"ITALIC\"},{\"offset\":43,\"length\":12,\"style\":\"UNDERLINE\"}],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "type": "divider"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "Теперь опрос",
+                        "textWeb": "{\"blocks\":[{\"key\":\"cqldr\",\"text\":\"Теперь опрос\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "id": 1156828,
+                        "type": "video",
+                        "caption": "Видео"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "И еще парачка картинок",
+                        "textWeb": "{\"blocks\":[{\"key\":\"ekdf9\",\"text\":\"И еще парачка картинок\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "id": 1156842,
+                        "type": "image",
+                        "caption": ""
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "",
+                        "textWeb": "{\"blocks\":[{\"key\":\"8mlgf\",\"text\":\"\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    }
+                ]
+            },
+            "media": [
+                {
+                    "id": 1156821,
+                    "name": "40f4dcff-df2b-4c09-b08e-bf791bdc6d59",
+                    "type": "image",
+                    "url": "media/3db9731e69b1eddfcfd486eaf1537d8e",
+                    "contentType": "image/png",
+                    "height": 751,
+                    "width": 1320,
+                    "cropRatio": 1.7576565,
+                    "size": 790311,
+                    "viewCount": 0,
+                    "createdAt": 1686202212879,
+                    "updatedAt": 1686202212879
+                },
+                {
+                    "id": 1156828,
+                    "type": "video",
+                    "url": "/video/LJaHoV9CTyOl9OT3.m3u8",
+                    "contentType": "application/vnd.apple.mpegurl",
+                    "height": 675,
+                    "width": 1080,
+                    "cropRatio": 1.6,
+                    "size": -1,
+                    "viewCount": 2,
+                    "createdAt": 1686203470067,
+                    "updatedAt": 1686203470067
+                },
+                {
+                    "id": 1156842,
+                    "name": "acd26c6a-1cc6-4ccb-bcce-a5f56ebd249e",
+                    "type": "image",
+                    "url": "media/61fa16b4241c1797be6ecd918b621280",
+                    "contentType": "image/png",
+                    "height": 771,
+                    "width": 1380,
+                    "cropRatio": 1.7898833,
+                    "size": 527982,
+                    "viewCount": 0,
+                    "createdAt": 1686210109834,
+                    "updatedAt": 1686210109834
+                },
+                {
+                    "id": 1156843,
+                    "name": "37acab73-1b96-4ba1-8fd3-18832ab90139",
+                    "type": "image",
+                    "url": "media/1c00d753f3650b18b14efa02bdf1ad56",
+                    "contentType": "image/png",
+                    "height": 376,
+                    "width": 300,
+                    "cropRatio": 0.79787236,
+                    "size": 127780,
+                    "viewCount": 0,
+                    "createdAt": 1686210134088,
+                    "updatedAt": 1686210134088
+                }
+            ],
+            "urlList": [
+                "https://wallup.net/wp-content/uploads/2016/01/195009-animals-cat.jpg",
+                "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
+                "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-748566367.jpg?w=2048",
+                "https://kidssearch.com/picsearch/images/possum-pic-1024x768-bbb5895.png"
+            ],
+            "isLiked": false,
+            "commentsList": [],
+            "userData": {
+                "id": "1655503",
+                "userName": "Анненков Александр Петрович",
+                "userPhoto": "./avatar.svg"
+            }
+        },
+        "mainNewsData": {
+            "news": [
+                {
+                    "id": 1155311,
+                    "likes": 0,
+                    "comments": 1,
+                    "reposts": "",
+                    "voting": "",
+                    "view": 915,
+                    "likePlusComments": 1,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "07"
+                    },
+                    "data": {
+                        "date": "02",
+                        "month": "06",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "отметка пользователя в статье",
+                    "description": "отметка пользователя в статье",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/b5785423ef529a40420d79e240313d56"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1148196,
+                    "likes": 1,
+                    "comments": 7,
+                    "reposts": 6,
+                    "voting": "",
+                    "view": 4061,
+                    "likePlusComments": 8,
+                    "time": {
+                        "hour": "09",
+                        "minutes": "46"
+                    },
+                    "data": {
+                        "date": "15",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Статья для проверки",
+                    "description": "текст статьи",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/7ba621c53c2ca7b96c8e6b41c94f9e70"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1146579,
+                    "likes": 3,
+                    "comments": 24,
+                    "reposts": "",
+                    "voting": "",
+                    "view": 4331,
+                    "likePlusComments": 27,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "46"
+                    },
+                    "data": {
+                        "date": "11",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Как войти в режим после майских праздников?",
+                    "description": "Делитесь лайфхаками в комментариях",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/57ac87ce765a1ce922ad39437b796346"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1146544,
+                    "likes": 2,
+                    "comments": 1,
+                    "reposts": 2,
+                    "voting": "",
+                    "view": 4344,
+                    "likePlusComments": 3,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "36"
+                    },
+                    "data": {
+                        "date": "11",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Это статья из сообщества \"Порция хорошего настроен...",
+                    "description": "Это статья из сообщества \"Порция хорошего настроения каждый день\". Она появится в виджете \"Главное\"\n\nДля замены статей, у которых не отображаются картинки...",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/539d9a69375d75398a32429c3470d132"
+                    ],
+                    "community": "Порция хорошего настроения каждый день",
+                    "bigTitle": "Это статья из сообщества \"Порция хорошего настроения каждый день\". Она появится в виджете \"Главное\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,94 @@
+@import "../../assets/styles/mixins";
+
+.carousel {
+  position: relative;
+  display: flex;
+  width: 535px;
+  overflow-x: auto;
+  margin: auto;
+  /* white-space: nowrap; */
+  align-self: center;
+  /* justify-content: space-between; */
+
+  flex-wrap: nowrap;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  scroll-snap-type: x mandatory !important;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @include mq("lg") {
+    width: 100%;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__arrow {
+    width: 36px !important;
+    height: 36px !important;
+    flex: 0 0 36px !important;
+
+    & svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__arrowWrapper {
+    padding: 0 !important;
+    width: 36px !important;
+    height: 36px !important;
+    position: absolute !important;
+    flex: 0 0 36px !important;
+    top: 50%;
+    transform: translateY(-50%) !important;
+
+    &_disable {
+      display: none !important;
+    }
+
+    &_left {
+      left: 10px;
+    }
+
+    &_right {
+      right: 10px;
+    }
+
+    @include mq("lg") {
+      display: none !important;
+    }
+  }
+
+  &__lowerBars {
+    display: none;
+
+    @include mq("lg") {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      margin-bottom: 17px;
+    }
+  }
+
+  &__dot {
+    border-radius: 16px;
+    margin: 0 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.96);
+    opacity: 0.5;
+    z-index: -1;
+
+    &_current {
+      background: #FFFFFF;
+      width: 28px;
+      opacity: 1;
+    }
+  }
+}

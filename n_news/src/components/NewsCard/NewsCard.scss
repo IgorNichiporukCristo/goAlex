@@ -1,0 +1,108 @@
+@import "../../assets/styles/mixins.scss";
+
+.newsCard {
+  background: #232323;
+  width: calc(100% - 30px);
+  border-radius: 20px;
+  margin-bottom: 22px;
+  padding: 25px 15px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  &:first-child {
+    display: none;
+  }
+
+  &:first-of-type {
+    color: red;
+    display: none;
+  }
+
+  @include mq("lg") {
+    margin-bottom: 10px;
+  }
+
+  &__sberLogo {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    flex: 0 0 16px;
+  }
+}
+
+.newsCard__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.newsCard__community {
+  @include typo-info;
+
+  margin-right: 14px;
+  opacity: 0.5;
+  color: #ffffff80;
+}
+
+.newsCard__communityWrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.newsCard__repost {
+  display: flex;
+  align-items: center;
+}
+
+.newsCard__repostWrapper {
+  margin-left: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.newsCard__repostContent {
+  @include typo-info;
+
+  margin-left: 3px;
+  opacity: 0.5;
+  color: #ffffff80;
+}
+
+.newsCard__headline {
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.019em;
+  word-break: break-word;
+}
+
+.newsCard__description {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff80;
+  word-break: break-word;
+}
+
+.newsCard__img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.newsCard__img {
+  margin-top: 13px;
+  align-self: center;
+}
+
+.newsCard__date {
+  margin-left: 30px;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #ffffff80;
+}

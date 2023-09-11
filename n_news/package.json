@@ -1,0 +1,58 @@
+{
+  "name": "new_news",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@salutejs/client": "^1.22.1",
+    "@salutejs/plasma-icons": "^1.88.0",
+    "@salutejs/plasma-tokens": "^1.18.1",
+    "@salutejs/plasma-ui": "^1.116.0",
+    "@sberdevices/plasma-icons": "^1.63.0",
+    "@sberdevices/plasma-tokens": "^1.14.0",
+    "@sberdevices/plasma-tokens-web": "^1.13.1",
+    "@sberdevices/plasma-ui": "^1.76.0",
+    "@sberdevices/plasma-web": "^1.54.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.3.1",
+    "cross-env": "^7.0.3",
+    "hls.js": "^1.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-popper": "^2.3.0",
+    "react-scripts": "5.0.0",
+    "sass": "^1.54.4",
+    "start": "^5.1.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start REACT_APP_DEB=test ",
+    "ngrok": "react-scripts start REACT_APP_DEB=build",
+    "build": "react-scripts build GENERATE_SOURCEMAP=false REACT_APP_DEB=build ",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "release": "REACT_APP_DEB=prod react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

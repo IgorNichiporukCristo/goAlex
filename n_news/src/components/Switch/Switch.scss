@@ -1,0 +1,30 @@
+@import "../../assets/styles/mixins";
+
+.tabIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+@media (max-width: 360px) {
+  .tabIcon {
+    right: 0;
+  }
+}
+.switch {
+  font-size: 14px;
+  line-height: 16px;
+
+  &__disable {
+    & > span {
+      color: grey;
+    }
+
+    @include mq("lg") {
+      display: none !important;
+    }
+  }
+}
+

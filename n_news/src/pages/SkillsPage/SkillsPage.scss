@@ -1,0 +1,155 @@
+@import "../../assets/styles/mixins";
+
+.skillsPage {
+    width: 650px;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+
+    @include mq("lg") {
+        width: calc(100% - 32px);
+    }
+}
+
+.skillsPage .head {
+    margin: 25px 0 28px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.skillsPage .chev {
+    display: flex;
+    align-self: flex-start;
+}
+
+.skillsPage__header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 14px;
+}
+
+.skillsPage__buttons {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.skillsPage__image {
+    width: 80px;
+    height: 80px;
+    margin-right: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsPage__rating {
+    width: 80px;
+    height: 32px;
+    margin-right: 18px;
+    background: rgba(201, 200, 200, 0.15);
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsPage__ratingText {
+    @include typo-main;
+
+    margin-left: 2px;
+}
+
+.skillsPage__title {
+    @include typo-main;
+    margin-bottom: 11px;
+}
+
+.skillsPage__subtitle {
+    @include typo-small-title;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.skillsPage__link {
+    @include typo-sub-title;
+
+    background: #21A038;
+    border-radius: 18px;
+    width: 119px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.skillsPage .op {
+    @include typo-main;
+    color: #FFFFFF8F;
+    margin-bottom: 16px;
+}
+
+.skillsPage .sub {
+    @include typo-sub-title;
+
+    margin-bottom: 38px;
+}
+
+.skillsPage .lnc {
+    width: calc(100% - 28px * 2);
+    padding: 28px;
+    background: linear-gradient(116.03deg, #232323 0.83%, #1E1E1E 97.04%);
+    border-radius: 18px;
+    margin-bottom: 37px;
+}
+
+.skillsPage .lnc .tp1 {
+    @include typo-main;
+
+    color: #FFFFFF8F;
+    margin-bottom: 21px;
+}
+
+.skillsPage .lnc .tp2 {
+    @include typo-main;
+    padding-left: 26px;
+    position: relative;
+}
+
+.skillsPage .lnc .tp2::after {
+    content: "";
+    width: 14px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.49);
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    z-index: 1;
+}
+
+.skillsPage__devicesTitle {
+    color: #FFFFFF8F;
+    margin-bottom: 18px;
+}
+
+.skillsPage__devicesItem {
+    display: flex;
+    align-items: center;
+}
+
+.skillsPage__devicesIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.skillsPage__devicesName span {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.0125em;
+}

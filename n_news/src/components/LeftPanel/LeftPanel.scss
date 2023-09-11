@@ -1,0 +1,70 @@
+.leftPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px 12px;
+
+  box-sizing: border-box;
+
+  width: 30px;
+  transition-property: width;
+  transition-duration: 0.1s;
+
+  overflow: hidden;
+  .leftItem {
+    cursor: pointer;
+    .itemName {
+      width: 0px;
+      overflow: hidden;
+      color: white;
+      font-family: SB Sans Text;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-left: 10px;
+    }
+
+    .leftIcon {
+      transition: transform 0.3s, bottom 0.3s;
+    }
+
+    .leftIcon.inactive {
+      svg {
+        path {
+          fill: grey;
+        }
+      }
+    }
+
+    display: flex;
+    align-items: center;
+    // gap: 12px;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  // justify-content: space-between;
+}
+
+.leftPanelMain {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  height: calc(100vh - 200px);
+  justify-content: space-between;
+  background: #222222;
+  border-radius: 18px;
+  position: fixed;
+  top: 120px;
+  left: calc(50% - 550px);
+}
+@media screen and (max-width: 1365px) {
+  .leftPanelMain {
+    display: none;
+  }
+}

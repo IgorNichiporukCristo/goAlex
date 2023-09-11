@@ -1,0 +1,275 @@
+@import "../../assets/styles/mixins";
+
+
+.newsPage {
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+
+
+  @include mq("lg") {
+    width: calc(100% - 32px);
+  }
+
+  &__search {
+    margin-bottom: 30px;
+
+    @include mq("lg") {
+      display: none;
+    }
+  }
+
+  &__repost {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 14px 0 0;
+
+    @include mq("lg") {
+      display: none;
+    }
+  }
+
+  &__repostImage {
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+  }
+
+  &__repostPostCommunityWrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__community {
+    @include typo-info;
+
+    margin-right: 12px;
+    opacity: 0.5;
+    color: #ffffff80;
+  }
+
+  &__head {
+    margin: 0 0 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mq("lg") {
+      margin-top: 21px;
+    }
+  }
+
+  &__headLeft {
+    display: flex;
+    cursor: pointer;
+  }
+
+  &__headContent {
+    margin-left: 20px;
+  }
+
+  &__headTitle {
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  &__date {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: normal;
+    letter-spacing: -0.019em;
+    margin-left: 22px;
+    color: #ffffff80;
+    opacity: 0.5;
+    white-space: nowrap;
+  }
+
+  &__carusel {
+    position: relative;
+    --plasma-colors-primary: #8A8A8A;
+
+    & > #lowerBars {
+      display: flex;
+      justify-content: center;
+
+      @include mq("lg") {
+        display: none;
+      }
+    }
+  }
+
+  &__title {
+    @include typo-title;
+    display: none;
+
+    margin-top: 12px;
+    word-break: break-word;
+
+    @include mq("lg") {
+      display: block;
+    }
+  }
+
+  &__quote {
+    letter-spacing: -0.019em;
+    color: rgba(255, 255, 255, 0.56);
+    padding-left: 6px;
+    border-left: 2px solid #5993FF;
+  }
+
+  &__mainImg {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 316px;
+    margin-bottom: 14px;
+    scroll-snap-align: start;
+    border-radius: 18px;
+    overflow: hidden;
+
+    img, video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__mainTxt {
+    @include typo-main;
+
+    width: 100%;
+    align-self: center;
+    margin: 10px 0 23px 0;
+    color: rgba(255, 255, 255, 0.96);
+    word-break: break-word;
+  }
+
+  &__link {
+    color: #5993FF;
+    cursor: pointer;
+  }
+
+  &__under {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__lhs {
+    margin: 0 7px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &__speaker {
+    display: flex;
+    padding: 10px 17px;
+    align-items: center;
+    border-radius: 31px;
+    cursor: pointer;
+    background: linear-gradient(89.83deg, #0EB029 0%, #00A6C7 100%);
+    margin-right: 15px;
+
+    @include mq("lg") {
+      margin-right: 12px;
+      padding: 0;
+      background: transparent;
+    }
+  }
+
+  &__speakerImage {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+
+    @include mq("lg") {
+      width: 36px;
+      height: 36px;
+      margin-right: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__svg {
+    &_speaker{
+      display: none;
+
+      @include mq("lg") {
+        display: block;
+      }
+    }
+    &_play {
+      @include mq("lg") {
+        display: none;
+      }
+    }
+  }
+
+  &__speakerTitle {
+    @include mq("lg") {
+      display: none;
+    }
+  }
+
+  &__under_item {
+    display: flex;
+    align-items: center;
+    font-family: SB Sans Text;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    padding: 6px 15px;
+    margin-right: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 31px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    @include mq("lg") {
+      padding: 0;
+      background: transparent;
+    }
+
+    &_views {
+      margin-left: auto;
+      background: transparent;
+    }
+  }
+
+  &__txt {
+    margin-right: 5px;
+  }
+
+  &__commentsImg {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__txt_l {
+    margin-right: 5px;
+  }
+
+  &__chev {
+    display: flex;
+  }
+}
+
+.video_thing {
+  width: 100%;
+  border-radius: 20px;
+}

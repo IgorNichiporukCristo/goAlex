@@ -1,0 +1,141 @@
+
+
+.searchResultWeb {
+  width: 603px;
+  max-height: 639px;
+  overflow: auto;
+  padding: 21px 21px 32px 26px;
+  background: #363636;
+  border-radius: 13px;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__title {
+    line-height: 20px;
+    letter-spacing: -0.019em;
+    font-family: 'SB Sans Text';
+    font-style: normal;
+
+    &_main {
+      font-weight: 900;
+      font-size: 20px;
+      margin-bottom: 21px;
+    }
+
+    &_secondary {
+      font-family: 'SB Sans Text';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+
+  &__cardsWrapper {
+    &:after {
+      content: "";
+      display: block;
+      position: relative;
+      height: 1px;
+      width: 100%;
+      margin: 11px 0 16px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    &:last-of-type {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  &__cardsWrapperTitle {
+    margin-bottom: 16px;
+
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+  }
+
+  &__card {
+    display: flex;
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 30px;
+
+    color: #fff;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__cardContentWrapper {
+    flex: 1 0 auto;
+  }
+
+  &__cardImage {
+    width: 36px;
+    height: 36px;
+    margin-right: 12px;
+  }
+
+  &__cardTitle {
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.019em;
+  }
+
+  &__cardDescription {
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.019em;
+    color: rgba(255, 255, 255, 0.56);
+  }
+
+  &__cardButton {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    font-family: 'SB Sans Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.019em;
+    color: rgba(255, 255, 255, 0.56);
+  }
+
+  &__cardChevron {
+    width: 16px !important;
+    height: 16px !important;
+    & > svg {
+      --plasma-colors-primary: rgba(255, 255, 255, 0.56);
+    }
+  }
+
+  display: none;
+  @media (min-width: 1366px) {
+      display: block;
+  }
+
+      
+}

@@ -1,0 +1,92 @@
+@import "../../assets/styles/mixins";
+
+.search {
+  $self: &;
+  position: relative;
+  display: flex;
+  margin-top: 21px;
+
+  @include mq("lg") {
+    margin: 0;
+  }
+
+  &__field {
+    --plasma-typo-button2-font-family: 'SB Sans Text';
+    --plasma-typo-button2-font-style: normal;
+    --plasma-typo-button2-font-weight: 400;
+    --plasma-typo-button2-font-size: 16px;
+    --plasma-typo-button2-line-height: 20px;
+
+    width: 100%;
+    padding: 13px 40px 12px 60px;
+    border-radius: 32px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid #545151;
+    outline: none;
+    color: rgba(255, 255, 255, 0.56);
+    color: #fff;
+
+    @include mq("lg") {
+      --plasma-typo-button2-font-weight: 500;
+      --plasma-typo-button2-font-size: 14px;
+      --plasma-typo-button2-line-height: 18px;
+      --plasma-typo-button2-letter-spacing: -0.019em;
+
+      padding: 9px 10px 8px 34px;
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  &__icon {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    &_search {
+      left: 25px;
+
+      & > div {
+        width: 24px;
+        height: 24px;
+      }
+
+      @include mq("lg") {
+        left: 10px;
+
+        & > div {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+
+    &_mic {
+      right: 20px;
+
+      @include mq("lg") {
+	  height: 0;
+	  overflow: hidden;
+      }
+    }
+
+    &_send {
+      display: none;
+
+      @include mq("lg") {
+        right: 20px;
+        display: block;
+      }
+    }
+
+    & > div > svg {
+      color: rgba(255, 255, 255, 0.56);
+
+      @include mq("lg") {
+        color: white;
+      }
+    }
+  }
+}

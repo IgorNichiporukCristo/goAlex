@@ -1,0 +1,185 @@
+{
+    "screenName": "newsPage",
+    "params": {
+        "newsData": {
+            "id": 1155311,
+            "likes": 0,
+            "comments": 1,
+            "reposts": "",
+            "voting": "",
+            "view": 1442,
+            "likePlusComments": 1,
+            "time": {
+                "hour": "07",
+                "minutes": "07"
+            },
+            "data": {
+                "date": "02",
+                "month": "06",
+                "year": "2023"
+            },
+            "type": "article",
+            "repost": false,
+            "title": "отметка пользователя в статье",
+            "description": "отметка пользователя в статье",
+            "url": [
+                "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/b5785423ef529a40420d79e240313d56"
+            ],
+            "community": "Порция хорошего настроения каждый день",
+            "full_description": "d287e-1667-41de-9f22-209eb0d739faРоза Фиалка - с аватаром\n\nя не знаю, кто из них та самая \"Роза Фиалка\" - у обеих табельник, хакарактерный для пользователей с teamId авторизацией.\n\n@30eef1ab-0d5c-449b-ba5c-99f156136cc9(Роза Фиалка - без аватара)",
+            "articleContent": {
+                "version": 1,
+                "entities": [
+                    {
+                        "type": "text",
+                        "textMobile": "@994d287e-1667-41de-9f22-209eb0d739fa(Роза Фиалка - с аватаром)",
+                        "textWeb": "{\"blocks\":[{\"key\":\"6shjo\",\"text\":\"@994d287e-1667-41de-9f22-209eb0d739fa(Роза Фиалка - с аватаром)\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "я не знаю, кто из них та самая \"Роза Фиалка\" - у обеих табельник, хакарактерный для пользователей с teamId авторизацией.",
+                        "textWeb": "{\"blocks\":[{\"key\":\"2kfd8\",\"text\":\"я не знаю, кто из них та самая \\\"Роза Фиалка\\\" - у обеих табельник, хакарактерный для пользователей с teamId авторизацией.\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "@30eef1ab-0d5c-449b-ba5c-99f156136cc9(Роза Фиалка - без аватара)",
+                        "textWeb": "{\"blocks\":[{\"key\":\"dind7\",\"text\":\"@30eef1ab-0d5c-449b-ba5c-99f156136cc9(Роза Фиалка - без аватара)\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    }
+                ]
+            },
+            "media": [],
+            "urlList": [],
+            "isLiked": false,
+            "commentsList": [
+                {
+                    "id": 1156814,
+                    "author": "Рыжов Олег Романович",
+                    "text": "",
+                    "url_author": "",
+                    "date": {
+                        "year": 2023,
+                        "month": "06",
+                        "date": "07",
+                        "hours": "15",
+                        "minutes": "07"
+                    },
+                    "answers": []
+                }
+            ],
+            "userData": {
+                "id": "1655503",
+                "userName": "Анненков Александр Петрович",
+                "userPhoto": "./avatar.svg"
+            }
+        },
+        "mainNewsData": {
+            "news": [
+                {
+                    "id": 1155311,
+                    "likes": 0,
+                    "comments": 1,
+                    "reposts": "",
+                    "voting": "",
+                    "view": 1442,
+                    "likePlusComments": 1,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "07"
+                    },
+                    "data": {
+                        "date": "02",
+                        "month": "06",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "отметка пользователя в статье",
+                    "description": "отметка пользователя в статье",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/b5785423ef529a40420d79e240313d56"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1148196,
+                    "likes": 1,
+                    "comments": 5,
+                    "reposts": 6,
+                    "voting": "",
+                    "view": 4485,
+                    "likePlusComments": 6,
+                    "time": {
+                        "hour": "09",
+                        "minutes": "46"
+                    },
+                    "data": {
+                        "date": "15",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Статья для проверки",
+                    "description": "текст статьи",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/7ba621c53c2ca7b96c8e6b41c94f9e70"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1146579,
+                    "likes": 3,
+                    "comments": 25,
+                    "reposts": "",
+                    "voting": "",
+                    "view": 4758,
+                    "likePlusComments": 28,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "46"
+                    },
+                    "data": {
+                        "date": "11",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Как войти в режим после майских праздников?",
+                    "description": "Делитесь лайфхаками в комментариях",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/57ac87ce765a1ce922ad39437b796346"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1146544,
+                    "likes": 2,
+                    "comments": 1,
+                    "reposts": 2,
+                    "voting": "",
+                    "view": 4714,
+                    "likePlusComments": 3,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "36"
+                    },
+                    "data": {
+                        "date": "11",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Это статья из сообщества \"Порция хорошего настроен...",
+                    "description": "Это статья из сообщества \"Порция хорошего настроения каждый день\". Она появится в виджете \"Главное\"\n\nДля замены статей, у которых не отображаются картинки...",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/539d9a69375d75398a32429c3470d132"
+                    ],
+                    "community": "Порция хорошего настроения каждый день",
+                    "bigTitle": "Это статья из сообщества \"Порция хорошего настроения каждый день\". Она появится в виджете \"Главное\""
+                }
+            ]
+        }
+    }
+}

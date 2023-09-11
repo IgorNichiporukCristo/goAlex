@@ -1,0 +1,57 @@
+@import "../../assets/styles/mixins";
+
+.worldNews {
+  height: 100%;
+  padding: 0 8px;
+  box-sizing: border-box;
+  max-width: 666px;
+  widht: 100%;
+
+  @include mq("lg") {
+    width: auto;
+    margin-right: 0;
+  }
+}
+
+.worldNews__card {
+    // height: 30vh;
+  width: 100%;
+  max-width: 370px;
+  padding: 28px;
+  background: radial-gradient(72.02% 60.82% at 50.15% 0%, #4C3123 0%, #1A1A1A 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+.worldNews__cardWrapper {
+  // height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.worldNews__title {
+  margin: 24px 0 0 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.worldNews__text {
+  margin: 12px 0 0 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.worldNews__img {
+    height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.worldNews__button {
+  width: 100%;
+  margin-top: 24px;
+}

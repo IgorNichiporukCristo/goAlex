@@ -1,0 +1,217 @@
+{
+    "screenName": "newsPage",
+    "params": {
+        "newsData": {
+            "id": 1156211,
+            "likes": 0,
+            "comments": 0,
+            "reposts": "",
+            "voting": "",
+            "view": 158,
+            "likePlusComments": "",
+            "time": {
+                "hour": "13",
+                "minutes": "24"
+            },
+            "data": {
+                "date": "06",
+                "month": "06",
+                "year": "2023"
+            },
+            "type": "article",
+            "repost": false,
+            "title": "Статья с картинкой",
+            "description": "Начало",
+            "url": [
+                "https://www.animalstown.com/animals/p/possum/wallpapers/possum-wallpaper-3.jpg"
+            ],
+            "community": "Навыки ВАС",
+            "full_description": "Интересно как это будет работать?\n\nКакой-то текст\n\nКонец\n\nЕсли пожар пишите сюда [42@sberbank.ru]42@sberbank.ru",
+            "articleContent": {
+                "version": 1,
+                "entities": [
+                    {
+                        "type": "text",
+                        "textMobile": "Интересно как это будет работать?",
+                        "textWeb": "{\"blocks\":[{\"key\":\"a9nfd\",\"text\":\"Интересно как это будет работать?\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "id": 1156209,
+                        "type": "image",
+                        "caption": "Траля-ля"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "Какой-то текст",
+                        "textWeb": "{\"blocks\":[{\"key\":\"1tgg3\",\"text\":\"Какой-то текст\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "id": 1156210,
+                        "type": "image",
+                        "caption": "Труляля"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "Конец",
+                        "textWeb": "{\"blocks\":[{\"key\":\"7sfql\",\"text\":\"Конец\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[],\"data\":{}}],\"entityMap\":{}}"
+                    },
+                    {
+                        "type": "text",
+                        "textMobile": "Если пожар пишите сюда [42@sberbank.ru](42@sberbank.ru)",
+                        "textWeb": "{\"blocks\":[{\"key\":\"a3j8t\",\"text\":\"Если пожар пишите сюда 42@sberbank.ru\",\"type\":\"unstyled\",\"depth\":0,\"inlineStyleRanges\":[],\"entityRanges\":[{\"offset\":23,\"length\":14,\"key\":0}],\"data\":{}}],\"entityMap\":{\"0\":{\"type\":\"LINK\",\"mutability\":\"MUTABLE\",\"data\":{\"url\":\"42@sberbank.ru\"}}}}"
+                    }
+                ]
+            },
+            "media": [
+                {
+                    "id": 1156209,
+                    "name": "a6f5019d-3ad0-44ca-a05b-a8d09081dcba",
+                    "type": "image",
+                    "url": "media/a981682725059d454d784a2424a4cbc0",
+                    "contentType": "image/png",
+                    "height": 760,
+                    "width": 1379,
+                    "cropRatio": 1.8144736,
+                    "size": 782235,
+                    "viewCount": 0,
+                    "createdAt": 1686057815495,
+                    "updatedAt": 1686057815495
+                },
+                {
+                    "id": 1156210,
+                    "name": "cba45d3b-0543-466b-901b-ffadf1ad5c07",
+                    "type": "image",
+                    "url": "media/c47829e9775b504f244da4f413259a75",
+                    "contentType": "image/png",
+                    "height": 635,
+                    "width": 1254,
+                    "cropRatio": 1.9748031,
+                    "size": 330312,
+                    "viewCount": 0,
+                    "createdAt": 1686057857580,
+                    "updatedAt": 1686057857580
+                }
+            ],
+            "urlList": [
+                "https://images7.alphacoders.com/331/331419.jpg",
+                "https://www.rd.com/wp-content/uploads/2021/04/GettyImages-748566367.jpg?w=2048"
+            ],
+            "isLiked": false,
+            "commentsList": [],
+            "userData": {
+                "id": "1655503",
+                "userName": "Анненков Александр Петрович",
+                "userPhoto": "./avatar.svg"
+            }
+        },
+        "mainNewsData": {
+            "news": [
+                {
+                    "id": 1155311,
+                    "likes": 0,
+                    "comments": "",
+                    "reposts": "",
+                    "voting": "",
+                    "view": 587,
+                    "likePlusComments": "",
+                    "time": {
+                        "hour": "07",
+                        "minutes": "07"
+                    },
+                    "data": {
+                        "date": "02",
+                        "month": "06",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "отметка пользователя в статье",
+                    "description": "отметка пользователя в статье",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/b5785423ef529a40420d79e240313d56"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1148196,
+                    "likes": 1,
+                    "comments": 7,
+                    "reposts": 6,
+                    "voting": "",
+                    "view": 3790,
+                    "likePlusComments": 8,
+                    "time": {
+                        "hour": "09",
+                        "minutes": "46"
+                    },
+                    "data": {
+                        "date": "15",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Статья для проверки",
+                    "description": "текст статьи",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/7ba621c53c2ca7b96c8e6b41c94f9e70"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1146579,
+                    "likes": 3,
+                    "comments": 20,
+                    "reposts": "",
+                    "voting": "",
+                    "view": 4046,
+                    "likePlusComments": 23,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "46"
+                    },
+                    "data": {
+                        "date": "11",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Как войти в режим после майских праздников?",
+                    "description": "Делитесь лайфхаками в комментариях",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/57ac87ce765a1ce922ad39437b796346"
+                    ],
+                    "community": "Порция хорошего настроения каждый день"
+                },
+                {
+                    "id": 1146544,
+                    "likes": 2,
+                    "comments": 1,
+                    "reposts": 2,
+                    "voting": "",
+                    "view": 4065,
+                    "likePlusComments": 3,
+                    "time": {
+                        "hour": "07",
+                        "minutes": "36"
+                    },
+                    "data": {
+                        "date": "11",
+                        "month": "05",
+                        "year": "2023"
+                    },
+                    "type": "article",
+                    "repost": false,
+                    "title": "Это статья из сообщества \"Порция хорошего настроен...",
+                    "description": "Это статья из сообщества \"Порция хорошего настроения каждый день\". Она появится в виджете \"Главное\"\n\nДля замены статей, у которых не отображаются картинки...",
+                    "url": [
+                        "https://api-ift.sberfriend.sbrf.ru/sberfriend-api/api/v1/ext/app/friend/rest/sbernet/api/v1/media/getmedia/media/539d9a69375d75398a32429c3470d132"
+                    ],
+                    "community": "Порция хорошего настроения каждый день",
+                    "bigTitle": "Это статья из сообщества \"Порция хорошего настроения каждый день\". Она появится в виджете \"Главное\""
+                }
+            ]
+        }
+    }
+}
